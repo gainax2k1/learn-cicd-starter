@@ -30,6 +30,3 @@ jobs:
             
             - name: 'Build and push Docker image'
               run: 'gcloud builds submit --tag us-central1-docker.pkg.dev/swift-network-467404-h4/notely-ar-repo/notely-app:latest .'
-
-
-            
